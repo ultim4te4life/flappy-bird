@@ -1,0 +1,32 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+#board {
+  background: url("https://healeycodes.com/_next/image?url=%2Fposts%2Fflappy-bird%2Fflappy-bird.gif&w=640&q=100")
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* Back button styles */
+.back-button {
+  position: absolute;
+  top: 40px;
+  left: 20px;
+  padding: 10px 15px;
+  background-color: green;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.back-button:hover {
+  background-color: #555;
+}
