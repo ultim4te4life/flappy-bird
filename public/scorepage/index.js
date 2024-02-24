@@ -17,6 +17,8 @@ const firebaseConfig = {
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 
+// Initialize firestore
+
 const db = getFirestore(app);
 
 const table = document.getElementById("playerTable");
